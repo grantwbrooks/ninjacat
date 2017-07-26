@@ -6,7 +6,7 @@ $(document).ready(function(){
 
         console.log("this is a",a);
         console.log("this is b",b);
-
+        
 
             $(this).attr("src",function(){
                 $(this).attr("alt-src",function(){
@@ -22,7 +22,7 @@ $(document).ready(function(){
 
 
 
-
+// $(this).attr("src",b).attr("alt-src",a);
 
     // $("img").click(function(){
     //     $(this).attr("src",function(){
